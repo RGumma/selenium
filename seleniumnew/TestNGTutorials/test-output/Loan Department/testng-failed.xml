@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Loan Department]">
+  <parameter name="Url" value="rajaniacademy"/>
+  <test name="Car Loan(failed)">
+    <classes>
+      <class name="learningTestNG.Day3">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="carmobilelogin"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- learningTestNG.Day3 -->
+      <class name="learningTestNG.Day2">
+        <methods>
+          <include name="Iamfirstinclass"/>
+          <include name="ploanrefresh"/>
+        </methods>
+      </class> <!-- learningTestNG.Day2 -->
+      <class name="learningTestNG.Day1">
+        <methods>
+          <include name="ploan1"/>
+          <include name="Refresh"/>
+          <include name="last"/>
+          <include name="ploanweb"/>
+        </methods>
+      </class> <!-- learningTestNG.Day1 -->
+    </classes>
+  </test> <!-- Car Loan(failed) -->
+</suite> <!-- Failed suite [Loan Department] -->

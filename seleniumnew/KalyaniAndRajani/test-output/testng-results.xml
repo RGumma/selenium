@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="32782" started-at="2016-05-14T10:41:04Z" finished-at="2016-05-14T10:41:37Z">
+    <groups>
+    </groups>
+    <test name="firefox" duration-ms="17559" started-at="2016-05-14T10:41:04Z" finished-at="2016-05-14T10:41:22Z">
+      <class name="com.testng.CrossBrowserTesting">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.testng.CrossBrowserTesting@6d78f375]" name="openBrowser" is-config="true" duration-ms="6493" started-at="2016-05-14T16:11:04Z" finished-at="2016-05-14T16:11:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="multibrowser()[pri:0, instance:com.testng.CrossBrowserTesting@6d78f375]" name="multibrowser" duration-ms="11009" started-at="2016-05-14T16:11:11Z" finished-at="2016-05-14T16:11:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multibrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.testng.CrossBrowserTesting@6d78f375]" name="closeBrowser" is-config="true" duration-ms="29" started-at="2016-05-14T16:11:22Z" finished-at="2016-05-14T16:11:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.testng.CrossBrowserTesting -->
+    </test> <!-- firefox -->
+    <test name="chrome" duration-ms="15182" started-at="2016-05-14T10:41:22Z" finished-at="2016-05-14T10:41:37Z">
+      <class name="com.testng.CrossBrowserTesting">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.testng.CrossBrowserTesting@4520ebad]" name="openBrowser" is-config="true" duration-ms="1702" started-at="2016-05-14T16:11:22Z" finished-at="2016-05-14T16:11:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="multibrowser()[pri:0, instance:com.testng.CrossBrowserTesting@4520ebad]" name="multibrowser" duration-ms="12153" started-at="2016-05-14T16:11:24Z" finished-at="2016-05-14T16:11:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multibrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.testng.CrossBrowserTesting@4520ebad]" name="closeBrowser" is-config="true" duration-ms="1323" started-at="2016-05-14T16:11:36Z" finished-at="2016-05-14T16:11:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.testng.CrossBrowserTesting -->
+    </test> <!-- chrome -->
+  </suite> <!-- Suite -->
+</testng-results>

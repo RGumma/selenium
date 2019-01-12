@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="83" started-at="2018-07-30T16:21:00Z" finished-at="2018-07-30T16:21:00Z">
+    <groups>
+      <group name="regression">
+        <method signature="Test1.testinggroups()[pri:0, instance:testng1.Test1@2434887]" name="testinggroups" class="testng1.Test1"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="Default test" duration-ms="83" started-at="2018-07-30T16:21:00Z" finished-at="2018-07-30T16:21:00Z">
+      <class name="testng1.Test1">
+        <test-method status="PASS" signature="openingthedriver()[pri:0, instance:testng1.Test1@2434887]" name="openingthedriver" is-config="true" duration-ms="19" started-at="2018-07-30T11:21:00Z" finished-at="2018-07-30T11:21:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingthedriver -->
+        <test-method status="PASS" signature="openingthebrowser()[pri:0, instance:testng1.Test1@2434887]" name="openingthebrowser" is-config="true" duration-ms="0" started-at="2018-07-30T11:21:00Z" finished-at="2018-07-30T11:21:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingthebrowser -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:testng1.Test1@2434887]" name="Test1" duration-ms="12" started-at="2018-07-30T11:21:00Z" finished-at="2018-07-30T11:21:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="regressiontest()[pri:0, instance:testng1.Test1@2434887]" name="regressiontest" is-config="true" duration-ms="1" started-at="2018-07-30T11:21:00Z" finished-at="2018-07-30T11:21:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regressiontest -->
+        <test-method status="PASS" signature="openingthebrowser()[pri:0, instance:testng1.Test1@2434887]" name="openingthebrowser" is-config="true" duration-ms="1" started-at="2018-07-30T11:21:00Z" finished-at="2018-07-30T11:21:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingthebrowser -->
+        <test-method status="PASS" signature="testinggroups()[pri:0, instance:testng1.Test1@2434887]" name="testinggroups" duration-ms="6" started-at="2018-07-30T11:21:00Z" finished-at="2018-07-30T11:21:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testinggroups -->
+      </class> <!-- testng1.Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

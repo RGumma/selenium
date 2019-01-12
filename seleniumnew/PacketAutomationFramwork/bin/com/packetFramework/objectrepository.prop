@@ -1,0 +1,4 @@
+url = http://www.bharatmatrimony.com/
+name = .//*[@id='NAME']
+male =  .//*[@id='gendermale']
+dropdown = .//*[@id='DOBDAY'] 

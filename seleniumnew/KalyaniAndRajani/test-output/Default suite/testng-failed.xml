@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.testng.DatePicker">
+        <methods>
+          <include name="date_picker"/>
+          <include name="testcase_complee"/>
+          <include name="validating_page"/>
+        </methods>
+      </class> <!-- com.testng.DatePicker -->
+      <class name="com.testng.Draggable">
+        <methods>
+          <include name="open_browser"/>
+          <include name="close_browser"/>
+          <include name="draggable"/>
+          <include name="validating"/>
+          <include name="open_url"/>
+          <include name="testcase_complee"/>
+          <include name="validating_page"/>
+        </methods>
+      </class> <!-- com.testng.Draggable -->
+      <class name="com.testng.Resizable">
+        <methods>
+          <include name="validation"/>
+          <include name="date_picker"/>
+          <include name="testcase_complee"/>
+          <include name="validating_page"/>
+          <include name="resizable"/>
+        </methods>
+      </class> <!-- com.testng.Resizable -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

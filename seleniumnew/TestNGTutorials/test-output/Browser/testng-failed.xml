@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Browser]">
+  <parameter name=" sampleParaName" value="chrome"/>
+  <test name="smoke test(failed)">
+    <classes>
+      <class name="learningTestNG.MyTest4">
+        <methods>
+          <include name="openbrowser1"/>
+          <include name="parameterTest"/>
+        </methods>
+      </class> <!-- learningTestNG.MyTest4 -->
+    </classes>
+  </test> <!-- smoke test(failed) -->
+</suite> <!-- Failed suite [Browser] -->

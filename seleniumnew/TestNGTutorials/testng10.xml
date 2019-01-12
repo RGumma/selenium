@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="group test one">
+  <groups>
+  <run>
+ <include name = "group-one">
+ </include>
+  </run>
+  </groups>
+  <classes>
+    <class name="learningTestNG.Multiplegroup"/>
+     </classes>
+  </test>
+  <test name = "group test two">
+  <groups>
+  <run>
+  <include name= "group-two"></include>
+  </run>
+  </groups>
+  <classes>
+  <class name = "learningTestNG.Multiplegroup"/>
+ </classes>
+ </test>
+</suite> <!-- Suite -->

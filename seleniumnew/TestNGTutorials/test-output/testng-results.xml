@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5069" started-at="2018-08-20T18:43:01Z" finished-at="2018-08-20T18:43:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5069" started-at="2018-08-20T18:43:01Z" finished-at="2018-08-20T18:43:06Z">
+      <class name="learningTestNG.Timeouttest">
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:learningTestNG.Timeouttest@7946e1f4]" name="firstTest" duration-ms="2024" started-at="2018-08-20T13:43:01Z" finished-at="2018-08-20T13:43:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="FAIL" signature="secondtest()[pri:0, instance:learningTestNG.Timeouttest@7946e1f4]" name="secondtest" duration-ms="3004" started-at="2018-08-20T13:43:03Z" finished-at="2018-08-20T13:43:06Z">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method org.testng.internal.TestNGMethod.secondtest() didn't finish within the time-out 3000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method org.testng.internal.TestNGMethod.secondtest() didn't finish within the time-out 3000
+	at java.util.concurrent.FutureTask.run(FutureTask.java:271)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondtest -->
+      </class> <!-- learningTestNG.Timeouttest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

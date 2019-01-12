@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+
+<listeners>
+
+<listener class-name = "learningTestNG.Listeners"/>
+
+ </listeners>
+
+<parameter name="Url" value="rajaniacademy"></parameter>
+	<test name="Personal loan">
+	<classes>
+  	<class name="learningTestNG.Day1">
+  		<methods>
+  			<include name="demo"></include>
+  		</methods>
+  	</class>
+  	<class name="learningTestNG.Day2">
+  	</class>
+  	</classes>
+  </test>
+  
+ <test name = "Car Loan">
+ 
+ <classes>
+ 
+ <class name = "learningTestNG.Day3"/>
+ 
+ </classes>
+ 
+</test>
+  
+ </suite> 

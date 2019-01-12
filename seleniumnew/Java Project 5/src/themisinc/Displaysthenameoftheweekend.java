@@ -1,0 +1,29 @@
+package themisinc;
+
+import java.util.Scanner;
+
+public class Displaysthenameoftheweekend {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the number");
+		
+		int day = sc.nextInt();
+		
+		System.out.println(getDayName(day));
+		
+				
+				
+			}
+			
+			
+		}
+		
+		
+		
+		
+	}
+
+}
