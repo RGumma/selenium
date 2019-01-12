@@ -1,0 +1,5 @@
+*.class
+SeleniumTraining/.settings/org.eclipse.jdt.core.prefs
+*.classpath
+*.project
+*.prefs
